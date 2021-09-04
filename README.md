@@ -2,11 +2,16 @@
 
 > A template for starting a Python project with Poetry in VS Code.
 
+Contains the following dev dependencis:
+- [Bandit](https://github.com/PyCQA/bandit) for security warnings
+- [Black](https://github.com/psf/black) for formatting
+- [Flake8](https://github.com/pycqa/flake8) for linting
+- [MyPy](https://github.com/python/mypy) for static typing
+
 ## Getting Started
 
-1. Remove `poetry.lock` from `.gitignore`.
-2. Run `poetry config virtualenvs.in-project true`.
-3. Run `poetry install`.
+- Update project metadata in `pyproject.toml`.
+- Run `poetry install`.
 
 ## License
 
